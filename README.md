@@ -11,13 +11,15 @@ Política de segurança avançada + reforço no registro.
 
 4️⃣ Objetivo: Automatizar tudo via PowerShell + Registro.
 
-📦 Conteúdo do pacot
-
+📦 Conteúdo do pacote
+```text
 Scripts PowerShell:
 Aplicar_Logon_Seguro.ps1 → aplica tudo.
 Restaurar_Logon_Seguro.ps1 → desfaz tudo.
 Arquivos .reg (caso prefira aplicar manualmente)
 README com instruções de uso.
+
+````
 
 Copie e cole este script inteiro no PowerShell (como Administrador).
 Ele vai criar tudo automaticamente na sua Área de Trabalho.
