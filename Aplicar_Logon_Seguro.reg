@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+Desativar Facilidade de Acesso (Utilman.exe) sem abrir cmd
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\utilman.exe]
+"Debugger"="0"
+
+Desativar botão de Energia na tela de login
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"ShutdownWithoutLogon"=dword:00000000
+
+Desativar botão de Rede na tela de login
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"DontDisplayNetworkSelectionUI"=dword:00000001

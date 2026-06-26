@@ -109,5 +109,4 @@ Write-Host "✅ Pacote profissional gerado em: $destino" -ForegroundColor Green
 
 Depois que rodar:
 Será criada na sua Área de Trabalho a pasta Controle_Tela_Logon_Pro com todos os arquivos.
-Execute Aplicar_Logon_Seguro.ps1 (como Admin) e reinicie → você verá a tela de logon limpa
-Esse método é 100% funcional para o Windows 10 Pro e Windows 11 Pro
+Execute Aplicar_Logon_Seguro.ps1 (como Admin) e reinicie → você verá a tela de logon limpa. Esse método é 100% funcional para o Windows 10 Pro e Windows 11 Pro
