@@ -1,17 +1,17 @@
 # Controle_Tela_Login
-1️⃣ Desativar o botão Facilidade de Acesso:
+# 1.Desativar o botão Facilidade de Acesso:
 
 Neutralizar o Utilman.exe via Image File Execution Options.
 
-2️⃣ Desativar o botão Energia:
+# 2.Desativar o botão Energia:
 
 Política de segurança avançada + reforço no registro.
 
-3️⃣ Desativar o botão Rede:
+# 3.Desativar o botão Rede:
 
-4️⃣ Objetivo: Automatizar tudo via PowerShell + Registro.
+# 4. Automatizado via PowerShell + Registro.
 
-📦 Conteúdo do pacote
+📦 Conteúdo do pacote:
 ```text
 Scripts PowerShell:
 Aplicar_Logon_Seguro.ps1 → aplica tudo.
@@ -91,17 +91,17 @@ Windows Registry Editor Version 5.00
 @"
 INSTRUÇÕES:
 
-1️⃣ Sempre execute os scripts PowerShell como ADMINISTRADOR.
+1 Sempre execute os scripts PowerShell como ADMINISTRADOR.
 
-2️⃣ Aplicar_Logon_Seguro.ps1 — remove:
+2 Aplicar_Logon_Seguro.ps1 — remove:
 
 - Facilidade de Acesso
 - Botão de Energia
 - Rede na tela de logon
 
-3️⃣ Restaurar_Logon_Seguro.ps1 — restaura as opções.
+3 Restaurar_Logon_Seguro.ps1 — restaura as opções.
 
-4️⃣ Arquivos .reg podem ser usados caso prefira aplicar via Editor de Registro.
+4 Arquivos .reg podem ser usados caso prefira aplicar via Editor de Registro.
 
 ⚠ Reinicie o computador após aplicar para ver o efeito na tela de logon.
 "@ | Out-File "$destino\README.txt" -Encoding UTF8
